@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Aula Flex</title>
+  </head>
+  <body>
+    <!-- NÃO SEMANTICO
+    <div id="cabecalho">Nome do Site</div>
+    <div id="menu">
+        <ul>
+            <li>Opcao 01</li>
+            <li>Opcao 02</li>
+            <li>Opcao 03</li>
+            <li>Opcao 04</li>
+        </ul>
+    </div>
+    <div id="conteudo">
+      <div class="post">Post 01</div>
+      <div class="post">Post 02</div>
+      <div class="post">Post 03</div>
+    </div>
+    <div id="rodape">Rodape</div>
+    -->
+
+    <!-- SEMANTICO -->
+    <header id="cabecalho">Nome do Site</header>
+    <div class="menu-conteudo">
+      <nav id="menu">
+        <ul>
+          <li>Opcao 01</li>
+          <li>Opcao 02</li>
+          <li>Opcao 03</li>
+          <li>Opcao 04</li>
+        </ul>
+      </nav>
+      <main id="conteudo">
+        <div class="post">Post 01</div>
+        <div class="post">Post 02</div>
+        <div class="post">Post 03</div>
+      </main>
+    </div>
+    <footer id="rodape">Rodape</footer>
+  </body>
+</html>
